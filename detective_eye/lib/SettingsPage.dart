@@ -59,7 +59,7 @@ class _SettingsPageState extends State<SettingsPage> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        const Text(
           'Notification Settings',
           style: TextStyle(
             fontSize: 20.0,
